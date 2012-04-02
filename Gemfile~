@@ -15,7 +15,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer'
+  # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
 end
@@ -26,6 +26,7 @@ gem 'mysql'
 gem 'paperclip'
 gem 'will_paginate'
 gem 'rails_best_practices'
+gem "omniauth-facebook"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -39,4 +40,4 @@ gem 'rails_best_practices'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'ruby-debug19', :require => 'ruby-debug'

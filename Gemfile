@@ -26,6 +26,7 @@ gem 'mysql'
 gem 'paperclip'
 gem 'will_paginate'
 gem 'rails_best_practices'
+gem "omniauth-facebook"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

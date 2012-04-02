@@ -42,7 +42,7 @@ Bratha::Application.configure do
   :address              => "smtp.gmail.com",
   :port                 => 587,
   :domain               => 'localhost:3000',
-  :user_name            => 'rails.mailer2012',
+  :user_name            => 'rails.mailer2012@gmail.com',
   :password             => 'sesuatubanget',
   :authentication       => 'plain',
   :enable_starttls_auto => true  } 
