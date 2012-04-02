@@ -1,0 +1,3 @@
+
+<br />
+<%= link_to 'photo', photos_path %>
