@@ -2,9 +2,9 @@
 <% if user_signed_in? %>
 <%= link_to 'article', articles_path %>
 <br />
-<%= link_to 'photo', photos_path %>
+<%= link_to 'photo', photo_path %>
 <br />
-<%= link_to 'signout', destroy_user_session_path %>
+<%= link_to 'signout', destroy_user_session_path, :method => :DELETE %>
 <br />
 <% else %>
 <%= link_to 'signin', new_user_session_path %>
